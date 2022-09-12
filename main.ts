@@ -44,11 +44,11 @@ for (let index = 0; index < 4; index++) {
 // Lava erupting
 for (let index = 0; index < 4; index++) {
     basic.showLeds(`
-        # # # # #
-        # # # # #
-        # # # # #
-        # # # # #
-        # # # # #
+        . . . . .
+        . # . # .
+        . . . . .
+        . # . # .
+        # . . . #
         `)
     basic.pause(250)
     basic.showLeds(`
@@ -73,14 +73,6 @@ for (let index = 0; index < 4; index++) {
         . . . . .
         . # . # .
         # . . . #
-        `)
-    basic.pause(250)
-    basic.showLeds(`
-        # # # # #
-        # # # # #
-        # # # # #
-        # # # # #
-        # # # # #
         `)
     basic.pause(250)
 }
